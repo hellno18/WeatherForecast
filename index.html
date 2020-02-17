@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Weather Forecast</title>
+</head>
+<body>
+	<!-- Button Search Container -->
+	<div id="searchContainer">
+		<button class="searchControl" id="geoBtn"><img src="img/geoBtn.png" id="geoImg"></button>
+		<input class="searchControl" id="searchInput" type="text" placeholder="city or zipcode"></input>
+		<button class="searchControl" id="searchBtn">Search</button>
+	</div>
+
+	<!-- Weather Search Container -->
+	<div class="weatherContainer" id="weatherContainer">
+		<div id="weatherDesc">
+			<h1 id="cityHeader"></h1>
+			<div id="weatherMain">
+				<div id="temperature"></div>
+				<div id="weatherDescHeader"></div>
+				<div><img src="" id="documentIconImg"></div>
+			</div>
+			<hr>
+			<div id="windSpeed" class="bottomDetails"></div>
+			<div id="humidty" class="bottomDetails"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

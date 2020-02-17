@@ -1,3 +1,4 @@
 # WeatherForecast
-This website was built by using JavaScript and connected to openweathermap API.
-URL api = https://openweathermap.org/api
+This website was built by using JavaScript and connected to openweathermap API. 
+# openweathermap API
+URL: https://openweathermap.org/api
